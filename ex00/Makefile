@@ -6,11 +6,11 @@
 #    By: wdegraf <wdegraf@student.42heilbronn.de    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/07 18:09:33 by wdegraf           #+#    #+#              #
-#    Updated: 2024/11/22 16:09:27 by wdegraf          ###   ########.fr        #
+#    Updated: 2024/11/24 15:56:55 by wdegraf          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME := clapTrap
+NAME := claptrap
 
 SRC := $(wildcard *.cpp)
 HEADS := $(wildcard *.hpp)
@@ -40,7 +40,6 @@ clean:
 
 fclean: clean
 	@rm -f $(NAME)
-	@rm -f *.replace
 
 re: fclean all
 
