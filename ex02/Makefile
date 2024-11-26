@@ -6,11 +6,11 @@
 #    By: wdegraf <wdegraf@student.42heilbronn.de    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/07 18:09:33 by wdegraf           #+#    #+#              #
-#    Updated: 2024/11/24 15:56:46 by wdegraf          ###   ########.fr        #
+#    Updated: 2024/11/26 14:10:38 by wdegraf          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME := scavtrap
+NAME := fragtrap
 
 SRC := $(wildcard *.cpp)
 HEADS := $(wildcard *.hpp)

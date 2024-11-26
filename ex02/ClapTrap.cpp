@@ -6,7 +6,7 @@
 /*   By: wdegraf <wdegraf@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/22 16:08:16 by wdegraf           #+#    #+#             */
-/*   Updated: 2024/11/24 14:57:28 by wdegraf          ###   ########.fr       */
+/*   Updated: 2024/11/26 14:40:35 by wdegraf          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -114,4 +114,9 @@ void	ClapTrap::displayStatus() const
 	std::cout << "ClapTrap " << name <<  " HP: " << hitPoints
 			<< ", Energy: " << energyPoints
 			<< ", Attack Damage: " << attackDamage << "\n";
+}
+
+int		ClapTrap::getAttackDamage() const
+{
+	return (attackDamage);
 }

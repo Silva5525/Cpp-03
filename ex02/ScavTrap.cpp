@@ -6,7 +6,7 @@
 /*   By: wdegraf <wdegraf@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/24 14:59:11 by wdegraf           #+#    #+#             */
-/*   Updated: 2024/11/24 18:28:52 by wdegraf          ###   ########.fr       */
+/*   Updated: 2024/11/26 14:41:55 by wdegraf          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,7 +81,6 @@ void	ScavTrap::attack(const std::string& target)
 	}
 	else
 		std::cout << "ScavTrap " << name << " is out of energy or hitpoints.\n";
-
 }
 
 /// @brief The ScavTrap member function for printing the guardGate message.

@@ -6,7 +6,7 @@
 /*   By: wdegraf <wdegraf@student.42heilbronn.de    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/22 16:11:00 by wdegraf           #+#    #+#             */
-/*   Updated: 2024/11/24 15:48:23 by wdegraf          ###   ########.fr       */
+/*   Updated: 2024/11/26 14:34:50 by wdegraf          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,7 @@ class ClapTrap
 		void	beRepaired(unsigned int amount);
 
 		void 	displayStatus() const;
+		int		getAttackDamage() const;
 };
 
 #endif
